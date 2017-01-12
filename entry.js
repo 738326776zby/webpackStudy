@@ -1,3 +1,4 @@
-/**
- * Created by zhangboya on 2017/1/11.
- */
+require('./style.css'); // 载入css
+console.log(require('./module.js'));
+document.write(require('./module.js'));
+document.write('It works.');
